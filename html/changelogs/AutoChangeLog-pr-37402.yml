@@ -1,0 +1,5 @@
+author: SECBATON-GRIFFON
+delete-after: true
+changes:
+- tweak: Vendors now indicate to users when they aren't ready to vend, if they try
+    to be interacted with in some cases.
