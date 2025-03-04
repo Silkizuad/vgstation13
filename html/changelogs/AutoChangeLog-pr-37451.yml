@@ -1,0 +1,13 @@
+author: CrazyAmphibian
+delete-after: true
+changes:
+- tweak: Nanotrasen's engineering team has discovered a new reactor construction technique
+    that is both faster and uses fewer resources, and has passed the savings onto
+    the crew!
+- rscadd: Reactors now emit light while active
+- bugfix: Reactor girders will no longer have incorrect names or icons.
+- bugfix: The reactor UI no longer mixes up coolant and reactor temperature.
+- bugfix: fixed some issues with overlapping reactor construction steps
+- tweak: Reactor girders now change appearance with construction a bit
+- tweak: Reactor girders at their final construction step (before welding) can now
+    be wrenched to move them around.
