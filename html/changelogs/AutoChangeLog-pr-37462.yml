@@ -1,0 +1,6 @@
+author: CrazyAmphibian
+delete-after: true
+changes:
+- rscadd: The Nanotrasen scientific committee has just been informed that nitrous
+    oxide does in fact decompose at high temperatures, and have corrected their physics
+    models across all stations.
