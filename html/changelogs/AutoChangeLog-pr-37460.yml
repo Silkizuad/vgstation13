@@ -1,0 +1,12 @@
+author: CrazyAmphibian
+delete-after: true
+changes:
+- rscadd: Fission reactors now emit sound while running
+- tweak: Nanotrasen has updated its reactor firmware to increase control rod precision
+    down to 1%!
+- tweak: The ISC will now round very small volumes of radon
+- tweak: Nanotrasen has updated its reactor guide to give a bit more information on
+    the ISC's piping construction
+- bugfix: Fixed radon not showing up as a valid material in the ISC sometimes
+- bugfix: Fixed reactor girders giving the incorrect number of plasteel sheets when
+    deconstructing them
