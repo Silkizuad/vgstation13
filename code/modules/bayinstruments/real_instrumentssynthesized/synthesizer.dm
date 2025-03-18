@@ -100,7 +100,7 @@
 	desc = "This is the hottest new synth around! With new sounds!"
 	icon = 'icons/obj/musician.dmi'
 	icon_state = "nusynth"
-	anchored = 1
+	anchored = 0
 	density = 1
 	var/list/instruments = list()
 
@@ -120,21 +120,19 @@
 		if (!anchored )//&& !isinspace())
 			playsound(loc, 'sound/items/Ratchet.ogg', 50, 1)
 			to_chat(usr, "<span class='notice'> You begin to tighten \the [src] to the floor...</span>")
-			if (do_after(user,src , 20))
-				user.visible_message( \
-					"[user] tightens \the [src]'s casters.", \
-					"<span class='notice'> You tighten \the [src]'s casters. Now it can be played again.</span>", \
-					"<span class='italics'>You hear ratchet.</span>")
-				anchored = 1
+			user.visible_message( \
+				"[user] tightens \the [src]'s casters.", \
+				"<span class='notice'> You tighten \the [src]'s casters. Now it can be played again.</span>", \
+				"<span class='italics'>You hear ratchet.</span>")
+			anchored = 1
 		else if(anchored)
 			playsound(loc, 'sound/items/Ratchet.ogg', 50, 1)
 			to_chat(usr, "<span class='notice'> You begin to loosen \the [src]'s casters...</span>")
-			if (do_after(user, src, 40))
-				user.visible_message( \
-					"[user] loosens \the [src]'s casters.", \
-					"<span class='notice'> You loosen \the [src]. Now it can be pulled somewhere else.</span>", \
-					"<span class='italics'>You hear ratchet.</span>")
-				anchored = 0
+			user.visible_message( \
+				"[user] loosens \the [src]'s casters.", \
+				"<span class='notice'> You loosen \the [src]. Now it can be pulled somewhere else.</span>", \
+				"<span class='italics'>You hear ratchet.</span>")
+			anchored = 0
 	else
 		..()
 
