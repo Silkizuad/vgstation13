@@ -1,0 +1,9 @@
+author: CrazyAmphibian
+delete-after: true
+changes:
+- rscdel: The mech RED has been reverted to the old UI due to technical issues.
+- tweak: The new RCD UI no longer tries to send images every time the UI is opened,
+    only the first. If images are broken, click the Reload Images button in the UI
+    and reopen it.
+- tweak: The new RCD will default to reinforced glass for windows instead of the weaker
+    one.
