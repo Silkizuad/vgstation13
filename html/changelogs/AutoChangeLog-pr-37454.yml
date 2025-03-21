@@ -1,0 +1,5 @@
+author: Kurfursten
+delete-after: true
+changes:
+- rscadd: Idea Guy Events 1 - HOG. Stations with excess assistants or a chef may encounter
+    a hog in maintenance that runs around but does not directly attack crewmen.
