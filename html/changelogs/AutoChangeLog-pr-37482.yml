@@ -1,0 +1,4 @@
+author: SonixApache
+delete-after: true
+changes:
+- rscadd: chicken-of-the-stars now works as wheat for vox chickens
