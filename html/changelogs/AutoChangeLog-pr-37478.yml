@@ -1,4 +1,0 @@
-author: SECBATON-GRIFFON
-delete-after: true
-changes:
-- bugfix: Windows in the abandoned spaceship are now properly dense again.
