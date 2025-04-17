@@ -1,0 +1,5 @@
+author: SECBATON-GRIFFON
+delete-after: true
+changes:
+- bugfix: Escape pods must now exist before they can be sent crashing into the escape
+    shuttle.
