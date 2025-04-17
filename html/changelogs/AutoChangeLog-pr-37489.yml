@@ -1,5 +1,0 @@
-author: Eneocho
-delete-after: true
-changes:
-- tweak: Chemical mutations in plants will not add produced chems if the plant had
-    no produced chems in the first place, and will not remove the last chem.
