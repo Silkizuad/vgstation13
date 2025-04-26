@@ -1,6 +1,0 @@
-author: Silkizuad
-delete-after: true
-changes:
-- bugfix: Fast Food Joint vault now has proper service area APC and is now powered.
-- bugfix: Vault spawns should no longer break vox trader place on Meta.
-- spellcheck: Fixed broken item name in AME Lab vault.
