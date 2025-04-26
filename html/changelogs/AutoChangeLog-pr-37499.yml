@@ -1,0 +1,6 @@
+author: Silkizuad
+delete-after: true
+changes:
+- rscadd: Added new derelict areas.
+- bugfix: Fixed faulty derelict areas.
+- tweak: Changes to derelict map.
