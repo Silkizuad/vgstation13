@@ -1,0 +1,5 @@
+author: mentgah
+delete-after: true
+changes:
+- bugfix: Medical nanobots can now fix broken bones. Watch out, the bone mending process
+    might be painful!
