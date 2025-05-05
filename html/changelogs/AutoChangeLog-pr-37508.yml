@@ -1,0 +1,5 @@
+author: ShiftyRail
+delete-after: true
+changes:
+- experiment: 516 clients should no longer have broken HTML windows in some cases
+    (such as using admin verbs).
