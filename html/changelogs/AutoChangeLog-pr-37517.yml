@@ -1,5 +1,0 @@
-author: SECBATON-GRIFFON
-delete-after: true
-changes:
-- bugfix: Fire alarms no longer accept shelters if they already have one, making them
-    unretrievable.
