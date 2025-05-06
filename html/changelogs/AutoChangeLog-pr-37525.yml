@@ -1,5 +1,0 @@
-author: ShiftyRail
-delete-after: true
-changes:
-- bugfix: Wrapped items should no longer behave erratically after being unwrapped.
-- tweak: You can now wrap items while holding them.

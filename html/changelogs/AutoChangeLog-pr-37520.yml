@@ -1,5 +1,0 @@
-author: ShiftyRail
-delete-after: true
-changes:
-- bugfix: Fixes Ankh Horn using all the sand available in a stack instead of just
-    one stack.

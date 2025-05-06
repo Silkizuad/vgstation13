@@ -1,5 +1,0 @@
-author: ShiftyRail
-delete-after: true
-changes:
-- experiment: Port the game to BYOND 516 for better features, in particular improved
-    HTML UI responsiveness. Please report any bugs.

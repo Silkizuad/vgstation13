@@ -1,7 +1,0 @@
-author: Silkizuad
-delete-after: true
-changes:
-- rscadd: Derelict Update - derelict maps are now randomly picked each round.
-- rscadd: Added a new derelict map.
-- rscadd: Derelicts are somewhat profitable to visit now.
-- bugfix: Safes now properly take in items in vaults.

@@ -1,4 +1,0 @@
-author: ShiftyRail
-delete-after: true
-changes:
-- bugfix: Simple mobs, including grues, can now remove floor tiles
