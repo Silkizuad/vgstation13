@@ -1,0 +1,6 @@
+author: CrazyAmphibian
+delete-after: true
+changes:
+- rscadd: Reactors have some more options with the right access.
+- tweak: disabling autoscram has been moved to the reactor options menu
+- rscadd: reactors can now be emagged to disable multitool access requirements.
