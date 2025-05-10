@@ -1,6 +1,0 @@
-author: CrazyAmphibian
-delete-after: true
-changes:
-- tweak: greatly reduced the cost of fission reactors
-- tweak: fission reactor part boxes can now be clicked on while in hand to drop their
-    parts on the floor, for assembling convenience.
